@@ -96,6 +96,11 @@ const API_SITES = {
         name: 'souav资源',
         adult: true
     },
+    siwa: {
+        api: 'https://siwazyw.tv',
+        name: '丝袜资源',
+        adult: true
+    },
     r155: {
         api: 'https://155api.com',
         name: '155资源',
@@ -110,18 +115,74 @@ const API_SITES = {
         api: 'https://hsckzy.vip',
         name: '黄色仓库',
         adult: true,
-        detail: 'https://hsckzy.vip'
+        detail: 'https://hsckzy.vip' // 添加detail URL以便特殊处理
     },
-    zuid: {
-        api: 'https://api.zuidapi.com',
-        name: '最大资源'
-    },
-    yutu: {
-        api: 'https://yutuzy10.com',
-        name: '玉兔资源',
+    //新加
+    ckzy1: {
+        api: 'https://www.ckzy1.com',
+        name: 'ck资源',
         adult: true
-    }
-    // 您可以按需添加更多源
+    },
+    jkunzy: {
+        api: 'https://jkunzyapi.com',
+        name: 'jk资源',
+        adult: true
+    },
+    bwzy: {
+        api: 'https://api.bwzym3u8.com',
+        name: '百万资源',
+        adult: true
+    },
+    souavzy: {
+        api: 'https://api.souavzy.vip',
+        name: '搜资源',
+        adult: true
+    },
+    siwazyw: {
+        api: 'https://siwazyw.tv',
+        name: '丝袜资源',
+        adult: true
+    },
+    api: {
+        api: 'https://155api.com',
+        name: '155api资源',
+        adult: true
+    },
+    hsckzy: {
+        api: 'https://hsckzy.vip',
+        name: 'https://hsckzy.vip',
+        adult: true
+    },
+    apilsbzy1: {
+        api: 'https://apilsbzy1.com',
+        name: 'apilsbzy1资源',
+        adult: true
+    },
+    iby: {
+        api: 'http://lbapiby.com',
+        name: 'lbapiby资源',
+        adult: true
+    },
+    hapi9: {
+        api: 'http://fhapi9.com',
+        name: 'fhapi9资源',
+        adult: true
+    },
+    bapi9: {
+        api: 'https://lbapi9.com',
+        name: 'lbapi9资源',
+        adult: true
+    },
+    md: {
+        api: 'https://91md.me',
+        name: '91md资源',
+        adult: true
+    },
+    apilsbzy1: {
+        api: 'https://apilsbzy1.com',
+        name: 'apilsbzy1资源',
+        adult: true
+    },
 };
 
 // 添加聚合搜索的配置选项
@@ -202,4 +263,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 新增隐藏内置黄色采集站API的变量，默认为true
-const HIDE_BUILTIN_ADULT_APIS = true;
+const HIDE_BUILTIN_ADULT_APIS = false;
